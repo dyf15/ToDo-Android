@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuListOptionTitle"
+        app:showAsAction="always"
+        android:title="@string/menu_all">
+        <menu>
+            <item
+                android:id="@+id/menuALl"
+                app:showAsAction="never"
+                android:title="@string/menu_all"/>
+
+            <item
+                android:id="@+id/menuIncomplete"
+                app:showAsAction="never"
+                android:title="@string/menu_incomplete"/>
+
+            <item
+                android:id="@+id/menuFinish"
+                app:showAsAction="never"
+                android:title="@string/menu_finish"/>
+        </menu>
+
+    </item>
+
+
+</menu>
